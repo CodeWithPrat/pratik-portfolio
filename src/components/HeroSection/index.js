@@ -11,8 +11,6 @@ import {
     Title,
     Span,
     SubTitle,
-    SocialMediaIcons,
-    SocialMediaIcon,
     ResumeButton,
     DownloadResumeButton,
 } from "./HeroStyle";
