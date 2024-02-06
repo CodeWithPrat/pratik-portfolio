@@ -9,7 +9,7 @@ export const Bio = {
     "Welcome to my portfolio! I'm a dedicated Java Full Stack Developer with expertise in backend and frontend technologies. Proficient in Java, I excel in crafting scalable web applications, emphasizing clean code and efficient solutions. My skills extend to OOP, HTML, CSS, JavaScript, SQL databases, JDBC, and frameworks like Spring, Spring Boot, Hibernate, and Java MVC. Committed to staying current with industry trends, I bring a collaborative problem-solving approach to drive excellence in software development. Eager to contribute to innovative projects, I am focused on achieving success as a Java Full Stack Developer",
   github: "https://github.com/CodeWithPrat",
   resume:
-    "https://drive.google.com/file/d/1xl3jU-zXBa5oiPlhlMRttW4juLqlTwQO/view?usp=sharing",
+    "https://drive.google.com/file/d/1kjHPAGhTsMDtXHqlJYnR_JkITCBwDGIb/view",
   linkedin: "https://www.linkedin.com/in/pratik-169b55199/",
   twitter: "https://twitter.com/javazzCode",
   insta: "https://www.instagram.com/pratiiiiiiiiiiiiiikkk/",

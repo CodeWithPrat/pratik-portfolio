@@ -21,7 +21,7 @@ import { Bio } from "../../data/constants";
 const HeroSection = () => {
     const handleDownloadResume = () => {
         // Replace 'YOUR_FILE_ID' with the actual Google Drive file ID of your resume file
-        const resumeFileId = "1xl3jU-zXBa5oiPlhlMRttW4juLqlTwQO";
+        const resumeFileId = "1kjHPAGhTsMDtXHqlJYnR_JkITCBwDGIb";
 
         const directLink = `https://drive.google.com/uc?export=download&id=${resumeFileId}`;
 

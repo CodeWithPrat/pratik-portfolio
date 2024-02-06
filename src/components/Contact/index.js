@@ -132,10 +132,24 @@ const SuccessMessage = styled.div`
   margin-top: 12px;
 `;
 
+const ErrorMessage = styled.div`
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+`;
+
 const Contact = () => {
   // hooks
   const [open, setOpen] = React.useState(false);
+  const [isSubmitEnabled, setSubmitEnabled] = React.useState(false);
   const form = useRef();
+
+  const [errorMessages, setErrorMessages] = React.useState({
+    from_email: '',
+    from_name: '',
+    subject: '',
+    message: '',
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -145,6 +159,7 @@ const Contact = () => {
         (result) => {
           setOpen(true);
           form.current.reset();
+          setSubmitEnabled(false); // Disable submit button after successful submission
         },
         (error) => {
           console.log(error.text);
@@ -152,18 +167,50 @@ const Contact = () => {
       );
   };
 
+  // Enable submit button only when all required fields are filled
+  const handleInputChange = () => {
+    const formElements = form.current.elements;
+    const updatedErrorMessages = {};
+  
+    Array.from(formElements).forEach((element) => {
+      if (element.hasAttribute('required') && element.value.trim() === '') {
+        updatedErrorMessages[element.name] = 'This field is required.';
+      } else {
+        updatedErrorMessages[element.name] = '';
+      }
+    });
+  
+    setErrorMessages(updatedErrorMessages);
+  
+    const isFormValid = Object.values(updatedErrorMessages).every((errorMessage) => errorMessage === '');
+    setSubmitEnabled(isFormValid);
+  };
+
+
   return (
-    <Container  id="contact">
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={handleSubmit} onChange={handleInputChange}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput placeholder="Your Email" name="from_email" required 
+            onChange={() => setErrorMessages((prevErrors) => ({ ...prevErrors, from_email: '' }))}
+          />
+          {errorMessages.from_email && <ErrorMessage>{errorMessages.from_email}</ErrorMessage>}
+          <ContactInput placeholder="Your Name" name="from_name" required
+          onChange={() => setErrorMessages((prevErrors) => ({ ...prevErrors, from_name: '' }))}
+          />
+          {errorMessages.from_name && <ErrorMessage>{errorMessages.from_name}</ErrorMessage>}
+          <ContactInput placeholder="Subject" name="subject" required 
+          onChange={() => setErrorMessages((prevErrors) => ({ ...prevErrors, subject: '' }))}
+          />
+          {errorMessages.subject && <ErrorMessage>{errorMessages.subject}</ErrorMessage>}
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required 
+          onChange={() => setErrorMessages((prevErrors) => ({ ...prevErrors, message: '' }))}
+          />
+          {errorMessages.message && <ErrorMessage>{errorMessages.message}</ErrorMessage>}
+          <ContactButton type="submit" value="Send" disabled={!isSubmitEnabled} />
         </ContactForm>
         <Snackbar
           open={open}
