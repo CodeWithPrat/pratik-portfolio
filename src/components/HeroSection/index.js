@@ -14,14 +14,14 @@ import {
     ResumeButton,
     DownloadResumeButton,
 } from "./HeroStyle";
-import HeroImg from "../../images/pratik_rmbg.png";
+import HeroImg from "../../images/pratibg.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
 const HeroSection = () => {
     const handleDownloadResume = () => {
         // Replace 'YOUR_FILE_ID' with the actual Google Drive file ID of your resume file
-        const resumeFileId = "1kjHPAGhTsMDtXHqlJYnR_JkITCBwDGIb";
+        const resumeFileId = "1xfCtsTSQYDdhq7grOq82T_bjulOds_XW";
 
         const directLink = `https://drive.google.com/uc?export=download&id=${resumeFileId}`;
 

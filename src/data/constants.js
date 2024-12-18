@@ -9,7 +9,7 @@ export const Bio = {
     "Welcome to my portfolio! I'm a dedicated Java Full Stack Developer with expertise in backend and frontend technologies. Proficient in Java, I excel in crafting scalable web applications, emphasizing clean code and efficient solutions. My skills extend to OOP, HTML, CSS, JavaScript, SQL databases, JDBC, and frameworks like Spring, Spring Boot, Hibernate, and Java MVC. Committed to staying current with industry trends, I bring a collaborative problem-solving approach to drive excellence in software development. Eager to contribute to innovative projects, I am focused on achieving success as a Java Full Stack Developer",
   github: "https://github.com/CodeWithPrat",
   resume:
-    "https://drive.google.com/file/d/1kjHPAGhTsMDtXHqlJYnR_JkITCBwDGIb/view",
+    "https://drive.google.com/file/d/1xfCtsTSQYDdhq7grOq82T_bjulOds_XW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/pratik-169b55199/",
   twitter: "https://twitter.com/javazzCode",
   insta: "https://www.instagram.com/pratiiiiiiiiiiiiiikkk/",
@@ -43,6 +43,11 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "TailwindCSS",
+        image:
+          "data:image/png;base64,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",
       },
       {
         name: "JavaScript",
@@ -151,10 +156,34 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://www.kodnest.com/wp-content/uploads/2022/12/3.png",
+    img: "https://github.com/CodeWithPrat/portfolioImages/blob/main/CMTI%20Logo.png?raw=true",
+    role: "Project Associate - 1",
+    company: "Central Manufacturing Technology Institute – Govt. of India",
+    date: "March 2024 - Present",
+    desc: "As a Project Associate - 1 (Java Developer) at Central Manufacturing Technology Institute – Govt. of India, I design and develop high-performance software solutions to optimize system performance, achieving a 27% improvement in efficiency. I create dynamic, responsive user interfaces using technologies like ReactJS, Tailwind CSS, animation libraries, and Bootstrap, enhancing user engagement by 25%. Collaborating with the R&D team, I identify and integrate critical emerging technologies, conduct strategic research, and deliver innovative solutions that meet diverse business requirements. My role involves analyzing system performance standards, developing client-centric solutions, and ensuring seamless integration of front-end and back-end components for superior user experiences.",
+    skills: [
+      "Java",
+      "ReactJs",
+      "Tailwind CSS",
+      "Bootstrap",
+      "MySQL",
+      "CSS",
+      "JavaScript",
+      "JDBC",
+      "Spring",
+      "spring boot",
+      "Hibernate",
+      "Java MVC",
+      "AWS",
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://github.com/CodeWithPrat/portfolioImages/blob/main/kodnest.png?raw=true",
     role: "Java Full-Stack Developer Intern",
     company: "KodNest",
-    date: "July 2023 - Present",
+    date: "July 2023 - February 2024",
     desc: "During my internship as a Java Full Stack Developer, I immersed myself in comprehensive training, gaining hands-on experience in the end-to-end development of web applications. This journey equipped me with a robust skill set, covering Java, Spring Boot, Hibernate, MySQL, HTML, CSS, JavaScript, and React. In frontend development, I crafted responsive interfaces, collaborating with UX/UI designers. On the backend, I developed scalable solutions, implementing RESTful APIs and excelling in database management with MySQL. Proficient in Git for version control, my internship not only enhanced my technical capabilities but also fostered a collaborative and result-oriented mindset. Eager to leverage these skills, I look forward to contributing to innovative projects and continuing my growth as a Java Full Stack Developer.",
     skills: [
       "Java",
@@ -172,7 +201,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.licdn.com/dms/image/C511BAQFB7W5mPy4x2w/company-background_10000/0/1584114330626/inventeron_technologies_cover?e=2147483647&v=beta&t=8DQUFo2yLZyHJAJpUTSxEgOahUGIB39vDe7nfgWrDtQ",
     role: "AIML Intern",
     company: "Inventeron Technologies and Business Solutions LLP",
@@ -194,7 +223,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/en/b/bf/Acharya_Institutes_Logo.jpg",
+    img: "https://github.com/CodeWithPrat/portfolioImages/blob/main/acharya.png?raw=true",
     school: "Acharya Institute of Technology, Bengaluru",
     date: "Aug 2019 - June 2023",
     grade: "7.58 CGPA",
@@ -203,7 +232,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fblr20-2.fna.fbcdn.net/v/t31.18172-8/333370_459177067451677_1369489318_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7a1959&_nc_ohc=HexsxmX49SYAX-pxGOb&_nc_ht=scontent.fblr20-2.fna&oh=00_AfBxNHD9Jg0h7qZqSHxXx2S5_CxT5G8j1Ho_avYcBZ_cVQ&oe=65D0C784",
+    img: "https://github.com/CodeWithPrat/portfolioImages/blob/main/Sarvajna.png?raw=true",
     school: "Sarvajna PU College of Science, Kalaburagi, Karnataka - 585105",
     date: "April 2017 - Feb 2019",
     grade: "84%",
@@ -373,6 +402,55 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 7,
+    title: "Dashboard for Machine Tool Condition Edge Module(MTCEM)",
+    date: "April 2024 - June 2024",
+    description:
+      "The Dashboard for Machine Tool Condition Edge Module (MTCEM), developed at CMTI, is an advanced monitoring system designed to provide real-time insights into machine tool performance and condition. This secure and user-friendly dashboard features a login authentication system, personalized data visualization, and optimized code for fast loading and seamless performance. By integrating graph plotting and various chart forms, it enables efficient tracking of critical machine parameters such as temperature, energy consumption, and operational status, enhancing overall operational efficiency and decision-making",
+    image:
+      "https://github.com/CodeWithPrat/portfolioImages/blob/main/mtcmEdgeModule.png?raw=true",
+    tags: ["ReactJs", "TailwindCSS", "Bootstrap", "MySQL", "JDBC", "Spring", "spring boot", "Hibernate", "Java MVC"],
+    category: "web app",
+    webapp: "https://cmti-smddc-dashboard.com/dashboard"
+  },
+  {
+    id: 8,
+    title: "Dashboard for Integrated Smart Foundry",
+    date: "July 2024 - Agust 2024",
+    description:
+      "The Dashboard for Integrated Smart Foundry, accessible at ifoundry.online, is a comprehensive industrial monitoring platform designed to enhance the efficiency of Foundry 4.0 operations. This dashboard fetches and displays real-time data, including temperature and energy metrics, while enabling users to monitor machine statuses and visualize operational insights through graph plotting and dynamic chart representations. Built for seamless user interaction, it provides a secure, responsive interface for tracking and managing critical processes, contributing to improved decision-making and operational productivity in modern smart foundry environments.",
+    image:
+      "https://github.com/CodeWithPrat/portfolioImages/blob/main/foundry.png?raw=true",
+    tags: ["ReactJs", "TailwindCSS", "Bootstrap", "MySQL", "JDBC", "Spring", "spring boot", "Hibernate", "Java MVC","JWT Token", "JWT Authentication"],
+    category: "web app",
+    webapp: "https://ifoundry.online/home"
+  },
+  {
+    id: 9,
+    title: "Dashboard for Digital Twin",
+    date: "Agust 2024 - October 2024",
+    description:
+      "The Dashboard for Digital Twin with Induction Spindle Motor and Feed Drive Axis is an innovative platform that enables real-time monitoring and management of critical machine components. The system connects seamlessly to the cloud, allowing for secure and efficient data collection, storage, and analysis. By leveraging cloud technology, the dashboard provides dynamic visualization of spindle motor and feed drive axis parameters, facilitating predictive maintenance and operational optimization. Users can access comprehensive insights through graph plotting, charts, and interactive elements, ensuring data-driven decision-making and enhanced performance for digital twin applications.",
+    image:
+      "https://github.com/CodeWithPrat/portfolioImages/blob/main/spindle_feeddrive.png?raw=true",
+      tags: ["ReactJs", "TailwindCSS", "Bootstrap", "MySQL", "JDBC", "Spring", "spring boot", "Hibernate", "Java MVC","AWS"],
+    category: "web app",
+    webapp: "-"
+  },
+  {
+    id: 10,
+    title: "Dashboard for Intellipod",
+    date: "October 2024 - December 2024",
+    description:
+      "The Dashboard for intelipod is a comprehensive platform designed to provide real-time monitoring and control of the pod's performance. This dashboard features a user-friendly interface, enabling users to access critical data and insights with ease. By integrating various charting and visualization tools, the dashboard enables users to gain insights into pod performance, quality control, and maintenance, ultimately enhancing the overall efficiency and productivity of the manufacturing process.",
+    image:
+      "https://github.com/CodeWithPrat/portfolioImages/blob/main/intellipod.png?raw=true",
+      tags: ["ReactJs", "TailwindCSS", "Bootstrap", "MySQL", "JDBC", "Spring", "spring boot", "Hibernate", "Java MVC"],
+    category: "web app",
+    webapp: "-"
+  },
+    
 ];
 
 export const TimeLineData = [
