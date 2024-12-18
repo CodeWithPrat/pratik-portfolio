@@ -6,7 +6,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Welcome to my portfolio! I'm a dedicated Java Full Stack Developer with expertise in backend and frontend technologies. Proficient in Java, I excel in crafting scalable web applications, emphasizing clean code and efficient solutions. My skills extend to OOP, HTML, CSS, JavaScript, SQL databases, JDBC, and frameworks like Spring, Spring Boot, Hibernate, and Java MVC. Committed to staying current with industry trends, I bring a collaborative problem-solving approach to drive excellence in software development. Eager to contribute to innovative projects, I am focused on achieving success as a Java Full Stack Developer",
+    "Welcome to my portfolio! I am a dedicated Java Full Stack Developer with expertise in crafting scalable, high-performance web applications. Proficient in Java, Spring Boot, Hibernate, and Java MVC, I excel in backend development while delivering responsive, dynamic user interfaces using ReactJS, CSS, Bootstrap, TailwindCSS and JavaScript. With experience in building secure authentication systems, real-time dashboards, and cloud-connected digital twin platforms, I ensure seamless integration of front-end and back-end components. Committed to writing clean, efficient code and staying ahead of industry trends, I thrive in collaborative environments and am eager to contribute to innovative, impactful projects.",
   github: "https://github.com/CodeWithPrat",
   resume:
     "https://drive.google.com/file/d/1xfCtsTSQYDdhq7grOq82T_bjulOds_XW/view?usp=sharing",
