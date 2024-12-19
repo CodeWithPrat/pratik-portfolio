@@ -104,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Pratik. All rights reserved.
+          &copy; 2025 Pratik. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
