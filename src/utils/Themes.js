@@ -1,22 +1,22 @@
 export const darkTheme = {
-    bg:"#1C1C27",
-    bgLight: "#1C1E27",
-    primary:"#854CE6",
-    text_primary:"#F2F3F4",
-    text_secondary:"#b1b2b3",
-    card:"#171721",
-    card_light: '#191924',
-    button:"#854CE6",
-    white:"#FFFFFF",
-    black:"#000000",
+    bg: "#000D0D",           // Dark teal background
+    bgLight: "#0A1515",      // Slightly lighter teal
+    primary: "#BA9731",      // Gold primary
+    text_primary: "#FEFEFE", // Brightest white text
+    text_secondary: "#F2F2F2", // Light gray text
+    card: "#001A1A",         // Darker teal for cards
+    card_light: "#0F1F1F",   // Slightly lighter card background
+    button: "#DACE84",       // Light gold for buttons
+    white: "#FEFEFE",        // Pure white
+    black: "#000D0D",        // Using dark teal as black
 }
 
 export const lightTheme = {
-    bg:"#FFFFFF",
-    bgLight: "#f0f0f0",
-    primary:"#be1adb",
-    text_primary:"#111111",
-    text_secondary:"#48494a",
-    card:"#FFFFFF",
-    button:"#5c5b5b",
+    bg: "#FEFEFE",           // Bright white background
+    bgLight: "#F2F2F2",      // Light gray background
+    primary: "#BA9731",      // Gold primary
+    text_primary: "#000D0D", // Dark teal text
+    text_secondary: "#2A3737", // Muted dark teal
+    card: "#FEFEFE",         // White cards
+    button: "#DACE84",       // Light gold buttons
 }
