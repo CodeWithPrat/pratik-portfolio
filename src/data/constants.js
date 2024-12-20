@@ -65,6 +65,11 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
         name: "Spring Boot",
         image: "https://raw.githubusercontent.com/CodeWithPrat/portfolioImages/247874365bac37dad9a4940d804f68aa7cf1dc34/icons8-spring-boot%20(2).svg",
       },
@@ -102,26 +107,6 @@ export const skills = [
     ],
   },
   {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
     title: "Others",
     skills: [
       {
@@ -148,7 +133,12 @@ export const skills = [
         name: "Postman",
         image:
           "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      }
+      },
+      {
+        name: "Android Studio",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
     ],
   },
 ];
